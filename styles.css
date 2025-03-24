@@ -1,0 +1,25 @@
+.main {
+    width: auto;
+    max-width: 1640px;
+    max-height: 1980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left-box {
+    float: left;
+    width: 450px;
+    height: 100%;
+    background-color: maroon;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+.profile-pic {
+    position: relative;
+    width: 306px;
+    height: 306px;
+    border-style: hidden;
+    border-radius: 50%;
+    border-width: 0px, 0px, 3px, 0px;
+    margin: 15px;
+    box-sizing: border-box;
+}
