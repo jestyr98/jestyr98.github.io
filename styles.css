@@ -1,57 +1,206 @@
-.main {
-    width: auto;
-    max-width: 1640px;
-    max-height: 1980px;
-    margin-left: auto;
-    margin-right: auto;
+.main{
+  width: 1640px;
+  height: 1980px;
+  margin-left: auto;
+  margin-right:auto;
 }
-.left-box {
-    float: left;
-    width: 450px;
-    height: 100%;
-    background-color: maroon;
-    font-family: Verdana, sans-serif;
-    color: white;
+.left-box{
+  float: left;
+  width: 450px;
+  height: 1980px;
+  background-color: maroon;
+  font-family: Verdana, sans-serif;
+  color: white;
 }
-.profile-pic {
+.profile-pic{
     position: relative;
     width: 306px;
     height: 306px;
-    border-style: hidden;
-    border-radius: 50%;
+    border-style:hidden;
     border-width: 0px, 0px, 3px, 0px;
-    margin: 15px;
     box-sizing: border-box;
+    border-radius: 50%;
+    margin: 15px;
 }
 .material-symbols-outlined {
-    margin-right: 15px;
-    vertical-align: bottom;
-    font-size: 21px!important;
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
+  margin-right: 15px;
+  vertical-align: bottom;
+  font-size: 21px!important;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.right-box{
+  float: right;
+  width: 1180px;
+  height: 1980px;
+  background-color: gainsboro;
+  font-family: Verdana, sans-serif;
 }
 .about{
-    margin: 15px;
-    text-align: left;
-    font-size: 1em;
+  margin: 15px;
+  text-align: left;
+  font-size: 1em;
 }
 a:link{
-    color: white;
+  color: white;
 }
 .follow_box{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: justify;
-    font-size: 2em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: justify;
+  font-size: 2em;
 }
 .fa-github{
-    margin-left: 15px;
-    color: white;
+  margin-left: 15px;
+  color: white;
 }
 .fa-twitter{
-    margin-left: 15px;
-    color: white;
+  margin-left: 15px;
+  color: white;
+}
+.heading{
+  display: block;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.heading-follow{
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  margin-left:  -15px;
+}
+.heading-languages{
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  margin-left:  -15px;
+}
+
+.heading-certs{
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  margin-left:  -15px;
+}
+.heading-techskills{
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  margin-left:  -15px;
+}
+.p1{
+  margin-left: 15px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  font-size: 14px;
+}
+.p2{
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 2p;
+  line-height: 18px;
+  margin-top: 5px;
+}
+.p3{
+  font-size: 14px;
+  word-spacing: 1px;
+  letter-spacing: 0px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.p3 span{
+  color: maroon;
+  padding-left: 20px;
+}
+h2{
+  font-size: 20px;
+  margin-bottom:  15px;
+}
+.skill-container{
+  width: 90%;
+  background-color: black;
+  margin: 0px 10px;
+}
+.skill{
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.html{
+  width: 95%;
+  background-color: white;
+}
+.css{
+  width: 95%;
+  background-color: white;
+}
+.js{
+  width: 80%;
+  background-color: white;
+}
+.cSharp{
+  width: 80%;
+  background-color: white;
+}
+.java{
+  width: 60%;
+  background-color: white;
+}
+.python{
+  width: 80%;
+  background-color: white;
+}
+.hardware{
+  width: 95%;
+  background-color: white;
+}
+.application{
+  width: 95%;
+  background-color: white;
+}
+.network{
+  width: 80%;
+  background-color: white;
+}
+.pm{
+  width: 85%;
+  background-color: white;
+}
+.rca{
+  width: 85%;
+  background-color: white;
+}
+.box-2{
+  padding: 0px 50px;
+  margin-top: 30px;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+ul li {
+  position: relative;
+  padding-left: 20px;
+}
+ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: translate(-50%) rotate(45deg);
+  width: 5px;
+  top: 15%;
+  height: 5px;
+  background-color: black;
 }
