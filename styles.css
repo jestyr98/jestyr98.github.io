@@ -23,3 +23,35 @@
     margin: 15px;
     box-sizing: border-box;
 }
+.material-symbols-outlined {
+    margin-right: 15px;
+    vertical-align: bottom;
+    font-size: 21px!important;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+.about{
+    margin: 15px;
+    text-align: left;
+    font-size: 1em;
+}
+a:link{
+    color: white;
+}
+.follow_box{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 2em;
+}
+.fa-github{
+    margin-left: 15px;
+    color: white;
+}
+.fa-twitter{
+    margin-left: 15px;
+    color: white;
+}
